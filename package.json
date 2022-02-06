@@ -5,7 +5,8 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "build": "webpack"
+    "dev": "webpack --env mode=development --watch",
+    "prod": "webpack --env mode=production"
   },
   "devDependencies": {
     "@swc/core": "^1.2.136",
