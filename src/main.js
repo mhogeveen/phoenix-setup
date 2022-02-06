@@ -1,5 +1,5 @@
-import quakeApp from './utils/quake.js'
-import { TERMINAL_BOTTOM } from './utils/constants.js'
+import quakeApp from "./utils/quake.js";
+import { TERMINAL_BOTTOM } from "./utils/constants.js";
 
 // Create Quake Apps
 quakeApp({
@@ -9,4 +9,4 @@ quakeApp({
   position: TERMINAL_BOTTOM,
   followsMouse: true,
   hideOnBlur: true,
-})
+});
