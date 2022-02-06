@@ -1,6 +1,6 @@
-import startApp from "./start.js";
-import moveAppToActiveSpace from "./move.js";
-import setAppPosition from "./position.js";
+import startApp from "./start_app.js";
+import moveAppToActiveSpace from "./move_app_to_active_space.js";
+import setAppPosition from "./set_app_position.js";
 
 /**
  * Create a keyboard event listener which implements a quake app

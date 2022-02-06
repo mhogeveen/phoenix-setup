@@ -1,4 +1,4 @@
-import quakeApp from "./utils/quake.js";
+import quakeApp from "./utils/quake_app.js";
 import { TERMINAL_BOTTOM } from "./utils/constants.js";
 
 // Create Quake Apps

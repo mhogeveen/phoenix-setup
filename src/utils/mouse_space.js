@@ -1,4 +1,4 @@
-import screenContainsPoint from "./pointOnScreen.js";
+import screenContainsPoint from "./screen_contains_point.js";
 
 /**
  * Get the space which contains the mouse

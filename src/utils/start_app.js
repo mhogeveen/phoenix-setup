@@ -1,4 +1,4 @@
-import osascript from "./osa.js";
+import osascript from "./osascript.js";
 
 /**
  * Get or launch the application with the passed in name.

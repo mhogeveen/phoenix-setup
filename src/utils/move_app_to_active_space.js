@@ -1,5 +1,5 @@
 import { DISPLAYS_HAVE_SEPARATE_SPACES } from './constants.js'
-import mouseSpace from './mouseSpace.js'
+import mouseSpace from './mouse_space.js'
 
 /**
  * Move the passed in App to the currently active space

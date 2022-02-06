@@ -1,9 +1,11 @@
-// Finding Application Names
-// to find application names run the following command
-// open the app you're interested in
-// open a phoenix log `log stream --process Phoenix`
-// uncomment the following keyboard shortcut to trigger a log of open application names
-export default findAppName = () => {
+/**
+ * Finding Application Names
+ * to find application names run the following command
+ * open the app you're interested in
+ * open a phoenix log `log stream --process Phoenix`
+ * uncomment the following keyboard shortcut to trigger a log of open application names
+ */
+export default findAppNames = () => {
   Key.on("a", ["alt", "shift"], () => {
     const array = App.all()
       .map((a) => a.name())
