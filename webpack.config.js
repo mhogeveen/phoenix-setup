@@ -11,7 +11,7 @@ export default (env) => {
   // Configuration: Entries
   // ----------------------------
   const entry = {
-    "phoenix": path.resolve(__dirname, "src/main.js"),
+    phoenix: path.resolve(__dirname, "src/main.js"),
   };
 
   // ----------------------------
@@ -43,9 +43,16 @@ export default (env) => {
   };
 
   // ----------------------------
-  // Configuration: Mode
+  // Configuration: Mode Options
   // ----------------------------
   const mode = env.mode;
+
+  // ----------------------------
+  // Configuration: Resolve Options
+  // ----------------------------
+  const resolve = {
+    extensions: [".js"],
+  };
 
   const config = {
     entry,
@@ -53,6 +60,7 @@ export default (env) => {
     optimization,
     watchOptions,
     mode,
+    resolve,
   };
 
   return config;
